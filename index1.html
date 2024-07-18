@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-Frame WebAR with Model on Phone Camera</title>
+    <script src="//cdn.jsdelivr.net/npm/eruda"></script>
+    <script src="./aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/webxr-polyfill@latest/build/webxr-polyfill.min.js"></script>
+    <title>Vite App</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@photo-sphere-viewer/core/index.min.css" /> -->
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- <div id="app"></div>
+    <p>This demo shows how to send push notifications with a payload.</p>
+    <form>
+        Notification payload: <input
+            id='notification-payload'
+            type='text'
+            value='Insert here a payload'
+        >
+        Notification delay: <input
+            id='notification-delay'
+            type='number'
+            value='5'
+        > seconds
+        Notification Time-To-Live: <input
+            id='notification-ttl'
+            type='number'
+            value='0'
+        > seconds
+    </form>
+    <button id="doIt">Request sending a notification!</button>
+    <script src="/src/util/tools.js"></script>
+    <script src="/src/util/index.js"></script> -->
+  </body>
+  <script type="module" src="/src/main.js"></script>
+  <script>
+    eruda.init();
+    console.log('控制台打印信息');
+  </script>
+</html>
